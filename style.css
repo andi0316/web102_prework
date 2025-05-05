@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Tagesschrift&display=swap');
 body {
-    font-family: 'Cabin';
-    background-color: #758190;
+    font-family: 'Tagesschrift';
+    background-color: #c9ced3;
 }
 
 #tentacles {
@@ -11,7 +11,7 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: #a8b0bc;
     padding: 1%;
     align-items: center;
     margin-left: -10px;
@@ -21,6 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    /* background-color: lightblue; */
+    align-items: center;    
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(20, 57, 69);
 }
 
 .stats-card {
@@ -59,17 +66,33 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px rgb(20, 57, 69);
 }
 
 #button-container {
     text-align: center;
+    background-color: #DDDDDD;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px rgb(127, 121, 154);
 }
 
 button {
-    font-family: 'Cabin';
+    font-family: 'Tagesschrift';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.extra-info {
+    display: none;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    padding: 8px;
+    border-radius: 5px;
+    color: #333;
+    font-size: 0.95em;
 }
