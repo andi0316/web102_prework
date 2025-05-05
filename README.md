@@ -25,6 +25,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
+https://i.imgur.com/WB4AZyb.gif
 
 <img src='https://i.imgur.com/WB4AZyb.gif' title='Andria Subhit - Video Walkthrough' width='' alt='Video Walkthrough' />
 
